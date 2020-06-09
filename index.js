@@ -177,4 +177,4 @@ class Fetsch {
     }
 }
 
-module.exports = Fetchs
+module.exports =  Fetsch
