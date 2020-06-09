@@ -1,0 +1,19 @@
+{
+  "name": "fetsch",
+  "version": "1.0.0",
+  "description": "A helper static Nodejs class with a variety of string- and object-processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/see-king/fetsch.git"
+  },
+  "author": "Alex Kogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/see-king/fetsch/issues"
+  },
+  "homepage": "https://github.com/see-king/fetsch#readme"
+}
