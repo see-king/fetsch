@@ -89,7 +89,7 @@ class Fetsch {
                     // convert each key in 'keyname=?' string and join the strings with commas
                     ` SET ${keys.map( key => `${key}=?`).join(", ")  } ` +
                     // convert each primary key in 'keyname=?' string and join the strings with ' AND '
-                    ` WHERE ${ primary.map( key => `${key}=?` ).join(" AND ") }`
+                    ` WHERE ${ primary.map( key => `\`${key}\`=?` ).join(" AND ") }`
                 break;
 
             case "insert":
